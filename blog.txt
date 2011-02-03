@@ -2,6 +2,13 @@
 Grazl plain text blog.
 Public domain.
 
+2/3/2011 Vectors
+
+  It seems literal vectors are immutable by default on Racket.
+  Not a big deal but a bit cumbersome when you have a lot of data
+  you need to modify and you must put (vector ...) in front of each
+  line, specially when each subvector has a different shape.
+
 2/1/2011 Racket nuissance
 
   Why doesn't racket-textual include the lazy and typed
